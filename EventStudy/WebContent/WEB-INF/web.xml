@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlet>
+	<servlet-name>ServletUsuario</servlet-name>
+	<servlet-class>servlet.ServletUsuario</servlet-class>
+
+	<servlet-mapping>
+		<servlet-name>ServletUsuario</servlet-name>
+		<url-pattern>/ServletUsuario</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-name>ServletEsqueciSenha</servlet-name>
+	<servlet-class>servlet.ServletEsqueciSenha</servlet-class>
+
+	<servlet-mapping>
+		<servlet-name>ServletEsqueciSenha</servlet-name>
+		<url-pattern>/ServletEsqueciSenha</url-pattern>
+	</servlet-mapping>
+
+	
+	
+	
+</servlet>

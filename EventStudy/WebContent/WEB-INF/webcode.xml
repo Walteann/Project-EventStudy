@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlet>
+<servlet-name>LoginAutenticacao</servlet-name>
+	<servlet-class>servlet.LoginAutenticacao</servlet-class>
+
+	<servlet-mapping>
+		<servlet-name>LoginAutenticacao</servlet-name>
+		<url-pattern>/LoginAutenticacao</url-pattern>
+	</servlet-mapping>
+	
+	</servlet>

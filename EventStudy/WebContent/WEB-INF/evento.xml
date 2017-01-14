@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<servlet>
+  <servlet-name>ServletEvento</servlet-name>
+  <servlet-class>servlet.ServletEvento</servlet-class>
+
+<servlet-mapping>
+  <servlet-name>ServletEvento</servlet-name>
+  <url-pattern>/ServletEvento</url-pattern>
+</servlet-mapping>
+
+</servlet>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" meta="pt-br">
+<title>Events Students</title>
+<link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+</head>
+<body id="bodyIndex">
+
+<div id="TopoPerfil">
+
+	<header id="LogoMarca">
+	<hgroup>  
+	<h1>EventStudy</h1>
+	<h2>Agende seus Eventos</h2>
+	</hgroup>
+	</header>
+</div>
+<div>
+<hgroup id="Topo">
+<header id="cabecalho">
+
+<nav id="MenuTopo2">
+	<ul>
+	<li><a href="../index.html"> Menu Principal </a></li>
+	<li><a href="../paginas/paginasEventos.html"> Eventos </a></li>
+	<li><a href="../paginas/cadastro.html"> Cadastrar </a></li>
+	<li><a href="../paginas/paginaLogin.html"> Entrar </a></li>
+	
+	</ul>
+</nav>
+
+</header>
+</hgroup>
+
+<div>
+<section id="SessaoEventos">
+
+
+
+<br><br>
+
+
+<form method="post" action="filtro.html">
+
+<fieldset>
+    <legend><h1>Buscar Curso</h1></legend>
+ 	<oi4>Nome do Curso:</oi4>
+	<input type="text" class="campo" name="BuscarNomeDoCurso" ><br>
+
+   <oi4>Carga Horaria:</oi4> 
+   <select name="opcao_filtro_horas" classe="campo" >
+      <option value="TodasAsHoras">Todas</option>
+      <option value="UmaHoraA2Horas">1h--2h</option>
+      <option value="TresHorasA5Horas">3h--5h</option>
+      <option value="SeisHorasA8Horas">6h--8h</option>
+      <option value="NovaHorasA16Horas">9h--16h</option>
+      <option value="Acima16Horas">16h+</option>
+   </select>
+   <br> <br>
+   <oi4>Preço:</oi4>
+   <select name="FreeOuPay"  >
+      <option value="CursosGratis">Gratis</option>
+      <option value="CursosPago">Pago</option>
+
+   </select>
+   <br><br>
+  
+   
+   <input type="submit" class="botao" name="Buscar">
+   
+   </fieldset>
+</form>
+
+
+
+
+
+
+
+
+</section>
+</div>
+
+<div>
+<aside id="asideSessao">
+
+	<h1><center> Lista de Eventos</center></h1> <br>
+	
+<table border="1" width="100%">
+			
+			<tr>
+				<th>Turma</th>
+				<th>Carga horaria</th>
+				<th>Investimento</th>
+				<th>Localização </th>
+				<th>Ministrantes </th>
+				
+				<th></th>
+			</tr>
+
+			<tr>
+		
+				<td> Oficina de Musica</td>
+				<td>12 horas</td>
+				<td>Gratis</td>
+				<td>Faculdade dos guarapapes</td>
+				<td>Famigerado</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+
+			<tr>
+		
+				<td>Mini-curso HTML</td>
+				<td>08 horas</td>
+				<td>Gratis</td>
+				<td>UniNASSAU</td>
+				<td> Davi</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+
+			<tr>
+		
+				<td>Palestra sobre CSS</td>
+				<td>06 horas</td>
+				<td>Gratis</td>
+				<td>Metropolitana</td>
+				<td>Walter</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+			
+			<tr>
+	
+				<td> Conferencia </td>
+				<td>04 horas</td>
+				<td>R$ 60,00</td>
+				<td> Teatro Boa Vista</td>
+				<td> Erivi</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+			
+			<tr>
+			
+				<td> JAVA e suas APPS</td>
+				<td>16 horas</td>
+				<td>Gratis</td>
+				<td> UFPE</td>
+				<td>Kevin</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+			
+			<tr>
+			
+				<td>Desenvolvimento Agil SCRUM</td>
+				<td>16 horas</td>
+				<td>R$ 180,00</td>
+				<td> Hotel Grand Mercurie</td>
+				<td>Walter</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+			
+			<tr>
+			
+				<td>Ação Social</td>
+				<td>03 horas</td>
+				<td>Gratis</td>
+				<td> Rua qualquer</td>
+				<td>Solon</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Inscreva-se!"></td>
+			</tr>
+			
+			<tr>
+				<td>Como Fazer um galeto</td>
+				<td>02 horas</td>
+				<td>R$ 30,00</td>
+				<td> DOM ELDEN</td>
+				<td> Davi</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+		<tr>
+				<td>Como conectar Mysql ao Java EE</td>
+				<td>04 horas</td>
+				<td>Gratis</td>
+				<td> DOM ELDEN</td>
+				<td>Solon</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+
+		<tr>
+				<td>Mini curso sobre arduino</td>
+				<td>08 horas</td>
+				<td>R$ 80,00</td>
+				<td>Faculdade Guarapes</td>
+				<td>Kevin</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+			
+		<tr>
+				<td>Gnu/linux abra sua mente, e o kernel</td>
+				<td>12 horas</td>
+				<td>R$ 100,00</td>
+				<td> SIN</td>
+				<td>Kevin</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+
+		<tr>
+				<td>Copiladores</td>
+				<td>10 horas</td>
+				<td>R$ 90,00</td>
+				<td>Universo</td>
+				<td>Wilson</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+		<tr>
+				<td>Criando banco de dados</td>
+				<td>05 horas</td>
+				<td>Gratis</td>
+				<td> Catolica</td>
+				<td>Kevin</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+			<tr>
+				<td>Manipulando Html5 e Css</td>
+				<td>10 horas</td>
+				<td>R$ 130,00</td>
+				<td> SIN</td>
+				<td>Walter</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+	
+		<tr>
+				<td>Saúde e bem estar</td>
+				<td>02 horas</td>
+				<td>Gratis</td>
+				<td> Faculdade guararapes</td>
+				<td>Evelyn</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+		<tr>
+				<td>Trabalhando com MVC</td>
+				<td>04 horas</td>
+				<td>Gratis</td>
+				<td> DOM ELDEN</td>
+				<td>Solon</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+		<tr>
+				<td>Montando servidores</td>
+				<td>06 horas</td>
+				<td>Gratis</td>
+				<td> Batorel</td>
+				<td> Davi</td>
+			
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+		<tr>
+				<td>Empreendedorismo</td>
+				<td>02 horas</td>
+				<td>R$ 10,00</td>
+				<td> Nassau</td>
+				<td>Ray</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+		<tr>
+				<td>Dobrando os lucros no seu negócio </td>
+				<td>10 horas</td>
+				<td>Gratis</td>
+				<td> Catolica</td>
+				<td>Walter e Solon</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+		<tr>
+				<td>Construindo um robo com raspberry pi</td>
+				<td>50 horas</td>
+				<td>R$ 130,00</td>
+				<td> Faculdade guararapes</td>
+				<td>Kevin</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+	
+		<tr>
+				<td>Curso de IOT</td>
+				<td>20 horas</td>
+				<td>R$ 330,00</td>
+				<td> UFPE</td>
+				<td>KevinI</td>
+				
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+		<tr>
+				<td>Palestra de arquitetura</td>
+				<td>03 horas</td>
+				<td>Gratis</td>
+				<td> Catolica </td>
+				<td>Stephanie</td>
+		
+				<td> <input type="button" class="botao" onclick="alert('vc Está Escrito teste')" value="Iscreva-se!"></td>
+			</tr>
+		</table>
+		
+		
+		<br>
+
+<h4>proximo >> </h4>
+
+</aside>
+</div>
+
+
+
+
+
+
+<footer id="dosEventos" > 
+Todos os Direitos Reservados <br>
+Walteann, Solon, Kevin, Davi Ad.</footer>
+
+
+</div>
+</body>
+</html>

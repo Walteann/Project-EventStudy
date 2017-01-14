@@ -1,0 +1,537 @@
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase:400,700');
+
+
+
+
+
+
+
+
+body{
+	background-image: url("../_imagens/FundoPreto.png");
+}
+
+body#bodyIndex {
+	overflow: auto;
+	
+}
+
+/* FORMATACAO DO MENU TOPO LOGIN E SENHA */
+nav#MenuTopo {
+	display: block;
+}
+
+nav#MenuTopo ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 15px;
+	left: 900px;
+	
+}
+
+nav#MenuTopo li{
+	/*
+	display: inline-block;
+	border: 1px solid #09131c;
+	border-radius: 3px;
+	background-color: #9dbfdc;
+	padding: 7px;
+	margin: 2px;*/
+	 background-color:  #09131c;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+	
+
+}
+
+nav#MenuTopo li:hover{
+	background-color: #8db8dd;
+	transition: 1s;
+	
+}
+nav#MenuTopo a{
+	color: white;
+	text-decoration: none;
+}
+
+nav#MenuTopo a:hover{
+	color: #09131c;
+	trasition:1s;
+}
+
+/* menu topo 2 pagina index.html */
+
+
+
+nav#MenuTopo2 ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 15px;
+	left: 800px;
+}
+
+nav#MenuTopo2 li {
+    background-color:  #09131c;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+nav#MenuTopo2 li:hover{
+	background-color: #8db8dd;
+	transition: 1s;
+	
+}
+
+nav#MenuTopo2  a {
+   color: white;
+	text-decoration: none;
+}
+
+nav#MenuTopo2  a:hover {
+ color: #09131c;
+	trasition:1s;
+}
+
+
+
+
+
+
+
+
+/* Fim FORMATACAO MENU TOPO */
+
+
+
+hgroup#LoginSenha {
+	color: black;
+	background-color: #9dbfdc;
+	position: relative;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	
+	padding: 60px 0px 20px 0px;
+	margin-top: 200px;
+	margin-left: 30%;
+	margin-right:30%;
+	
+	
+}
+
+hgroup#LoginSenha a{
+	color: blue;
+	text-decoration: none;
+}
+hgroup#LoginSenha h5{
+	bold: none;
+}
+
+
+hgroup#LoginSenha oi {
+	color: #09131c;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 16px;
+	
+}
+
+
+
+hgroup#EsqueciSenha{
+	
+	color: black;
+	background-color: #9dbfdc;
+	position: relative;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	
+	padding: 60px 0px 20px 0px;
+	margin-top: 200px;
+	margin-left: 30%;
+	margin-right:30%;
+}
+
+hgroup#EsqueciSenha a{
+	color: blue;
+	text-decoration: none;
+}
+
+hgroup#EsqueciSenha oi {
+	color: #09131c;
+	font-family: 'Delius Unicase', cursive;
+	font-size: 16px;
+	
+}
+
+input.campo2[type=email] {
+	
+	right: 0px;
+    width: 40%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #09131c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+hgroup#CadastroRegistro {
+	border: 2px dotted black;
+	margin: 30px 170px 0px 170px ;
+	padding-bottom: 30px;
+	text-align: center;
+	
+	
+}
+hgroup#CadastroRegistro oi3 {
+	position: relative;
+	right:60px;
+	color: #09131c;
+font-family: 'Delius Unicase', cursive;
+	font-size: 16px;
+	text-align: center;
+	
+	
+}
+hgroup#CadastroRegistro oi2 {
+	
+	color: #09131c;
+font-family: 'Delius Unicase', cursive;
+	font-size: 30px;
+	
+	
+}
+input.campo[type=text],[type=email] {
+
+	right: 55px;
+    width: 40%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #09131c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.campo[type=password] {
+	
+	position: relative;
+	right: 0px;
+    width: 40%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #09131c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.botao {
+    background-color: #09131c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input.campo2[type=text],[type=password],[type=email] {
+	position: relative;
+	right: 55px;
+    width: 50%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #09131c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input.botao2 {
+    background-color: #09131c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div#TopoPerfil {
+	position: absolute;
+	width: 1300px;
+	height: 130px;
+	background-color: #9dbfdc;
+	margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+	left: 20px;
+	top: 20px;
+	
+}
+
+
+div#TopoPerfil header#LogoMarca {
+	padding: auto;
+}
+
+header#LogoMarca h1{
+	position: absolute;
+	font-family: 'Bad Script', cursive;
+	font-size: 70px;
+	color: #07332f;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	top: -60px;
+	left: 30px;
+}
+
+div#TopoPerfil header#LogoMarca2 {
+	padding: auto;
+}
+header#LogoMarca2 h1{
+	position: absolute;
+	font-family: 'Bad Script', cursive;
+	font-size: 70px;
+	color: #07332f;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	top: -8px;
+	left: 30px;
+}
+
+header#LogoMarca h2 {
+	position: absolute;
+font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	color:#07332f;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	top:60px;
+	left: 30px;
+	
+}
+
+header#LogoMarca2 h2 {
+	position: absolute;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+	color:#07332f;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+	top:60px;
+	left: 30px;
+	
+}
+
+footer {
+	width: 100%;
+	left: -20px;
+	position: absolute;
+	color: white;
+	padding: 1em;
+	margin: 13px;
+	background-color: #0d1d2b;
+	text-align: center;
+	bottom: 1%;
+	
+	
+}
+
+footer#daIndex {
+	position: relative;
+	bottom: -1235px;
+}
+
+footer#dosEventos {
+	position: relative;
+	bottom: -970px;
+}
+
+footer#doCadastro{
+	position: relative;
+	bottom:-770px;
+}
+
+
+/* SECTION */
+
+
+section#BoasVindas {
+	position: absolute;
+	width: 65%;
+	height: 45%;
+	top: 145px;
+	left: 0px;
+	/*background-color:  #9dbfdc;
+	
+		margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+	*/
+}
+
+
+
+
+
+
+aside#asideLado {
+	position: absolute;
+	width: 30%;
+	height: 1120px;
+	background-color:  #9dbfdc;
+	top: 168px;
+	left: 915px;
+		margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+}
+
+article#ListaDeEventos {
+	position: absolute;
+	width: 65%;
+	height: 125%;
+	background-color:  #9dbfdc;
+	top:425px;
+	left: 20px;
+	margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+}
+
+article#ListaDeEventos table {
+	
+	border: 2px solid #09131c;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	padding: 25px;
+	
+}
+
+article#ListaDeEventos td, th {
+
+	
+    border: 1px solid #09131c;
+    text-align: center;
+    padding: 8px;
+   
+    
+}
+
+article#ListaDeEventos tr:nth-child(even) {
+	
+    background-color: #dddddd;
+}
+
+
+
+/*PaginaEVENTOS Edicao */
+
+
+section#SessaoEventos{
+		position: absolute;
+	width: 29.5%;
+	height: 125%;
+	background-color:  #9dbfdc;
+	top: 168px;
+	left: 20px;
+		margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+}
+
+aside#asideSessao{
+	overflow: scroll;
+	position: absolute;
+	width: 65%;
+	height: 800px;
+	background-color:  #9dbfdc;
+	top: 168px;
+	left: 440px;
+	margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+}
+
+aside#asideSessao h4{
+	text-align: center;
+}
+
+aside#asideSessao table {
+	
+	
+	border: 2px solid #09131c;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	padding: 25px;
+}
+
+aside#asideSessao td, th {
+	
+    border: 1px solid #09131c;
+    text-align: center;
+    padding: 8px;
+}
+
+aside#asideSessao tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+
+aside#AsideCadastro{
+
+	position: absolute;
+	width: 65%;
+	height: 600px;
+	background-color:  #9dbfdc;
+	top: 168px;
+	left:220px;
+	margim: 20px auto 10px auto;
+	box-shadow: 0px 0px 0px 3px #0e5b46;
+	padding: 5px;
+}
+
+/* boot streeep*/
+
+
+div.carousel-inner > .item > img,
+div.carousel-inner > .item > a > img {
+		
+      width: 890px;
+      height: 250px;
+
+      margin: 0px;
+    
+     
+}
